@@ -4,21 +4,11 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon.png" />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="/static/favicons/favicon-32x32.png"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="/static/favicons/favicon-16x16.png"
-          />
-          <link rel="manifest" href="/static/favicons/site.webmanifest" />
-          <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+          <link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png" />
+          <link rel="icon" type="image/png" sizes="48x48" href="/icons/icon-48x48.png" />
+          <link rel="icon" type="image/png" sizes="96x96" href="/icons/icon-96x96.png" />
+          <link rel="manifest" href="/manifest.json" />
+          <link rel="mask-icon" href="/icons/maskable.png" color="#000" />
           <meta name="msapplication-TileColor" content="#000000" />
           <meta name="theme-color" content="#000000" />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
@@ -33,6 +23,7 @@ class MyDocument extends Document {
             integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc"
             crossOrigin="anonymous"
           />
+          <link rel="icon" href="/icons/maskable.png" sizes="any" type="image/png" />
         </Head>
         <body className="antialiased text-black bg-white dark:bg-background-color dark:text-white">
           <Main />

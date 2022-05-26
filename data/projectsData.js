@@ -1,19 +1,33 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Physicist portfolio site',
+    description: `This is what a physicist's portfolio site should look like.`,
+    imgSrc: '',
+    href: 'https://shivaweb.netlify.app',
+    github: 'https://github.com/thekamalkashyap/physicist-personal-site',
+    tech1: 'vercel',
+    tech2: 'Nextjs',
+    tech3: 'React',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten handphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Personal website 2.0',
+    description: `Second version of my personal website. Little improvements, showing projects and more.`,
+    imgSrc: '',
+    href: 'https://kamalkashyap.vercel.app',
+    github: 'https://github.com/thekamalkashyap/mywebapp',
+    tech1: 'vercel',
+    tech2: 'Nextjs',
+    tech3: 'React',
+  },
+  {
+    title: 'Personal website 1.0',
+    description: `First version of my personal website. Nothing spectacular.`,
+    imgSrc: '',
+    href: 'https://personal-website-boilerplate.netlify.app',
+    github: 'https://github.com/thekamalkashyap/personal-website-boilerplate',
+    tech1: 'React',
+    tech2: 'Reacts-router-dom',
+    tech3: 'Bootstrap',
   },
 ]
 

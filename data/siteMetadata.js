@@ -1,32 +1,24 @@
 const siteMetadata = {
-  title: 'Hi!👋',
-  author: 'Einar Guðni Guðjónsson',
-  headerTitle: 'My website',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'kamal!',
+  author: 'Kamal Kashyap',
+  headerTitle: 'kamal kashyap',
+  description: 'My online place for thoughts',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://einargudni.com,',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
-  email: 'einargudnig@gmail.com',
-  github: 'https://github.com/einargudnig',
-  twitter: 'https://twitter.com/einargudni',
-  facebook: 'https://facebook.com',
-  instagram: 'https://instagram.com/einargudni',
-  linkedin: 'https://www.linkedin.com/einargudni/',
+  siteUrl: 'https://kamalkashyap.vercel.app,',
+  siteRepo: 'https://github.com/thekamalkashyap/mywebapp',
+  siteLogo: '/icons/maskable.png',
+  image: '/static/images/me.jpg',
+  email: 'artleaks059@gmail.com',
+  github: 'https://github.com/thekamalkashyap',
+  twitter: 'https://twitter.com/thekamalkashyap',
+  instagram: 'https://instagram.com/kashyap._.kamal',
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
-    googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
-  },
-  newsletter: {
-    // supports mailchimp, buttondown, convertkit, klaviyo
-    // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
+    googleAnalyticsId: 'G-95HPC8T3GB', // e.g. UA-000000-2 or G-XXXXXXX
   },
   comment: {
     // Select a provider and use the environment variables associated to it

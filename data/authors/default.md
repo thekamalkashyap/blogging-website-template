@@ -1,16 +1,13 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: kamal kashyap
+avatar: /static/images/me.jpg
+
+occupation: Web developer
+company: Freelancer
+email: artleaks059@gmail.com
+twitter: https://twitter.com/thekamalkashyap
+github: https://github.com/thekamalkashyap.
+text1: The name is kamal (which is short for kamal kumar or kamal kashyap, depending on where you know me from). I am a 17-year-old North Indian with a tech sort of background and a lot to say about the trends and direction of the scientific world.
+text2: I'm very dedicated to learn new things and to truly belive that you should never stop learning. I enjoy creating different things, whether that be websites, application or anything in between.
+text3: In my first freelancing work as a web developer I feel like I've been very lucky to experience a broad and diverce part of projects and tasks. I get to deal with everything from user feedback, design and to backend tests and improving parts of our daily operations.
 ---
-
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
-
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.

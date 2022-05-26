@@ -22,6 +22,7 @@ module.exports = {
         'background-color': '#1F2023',
         'primary-color': '#1e90ff',
         'primary-color-dark': '#FFFF66',
+        'spotify-green': '#1DB954',
         primary: colors.teal,
         gray: colors.neutral,
       },
@@ -29,13 +30,13 @@ module.exports = {
         DEFAULT: {
           css: {
             color: theme('colors.slate.700'),
-            a: {
-              color: theme('colors.primary-color'),
-              '&:hover': {
-                color: theme('colors.primary.600'),
-              },
-              code: { color: theme('colors.primary.400') },
-            },
+            // a: {
+            //   color: theme('colors.primary-color'),
+            //   '&:hover': {
+            //     color: theme('colors.primary.600'),
+            //   },
+            //   code: { color: theme('colors.primary.400') },
+            // },
             h1: {
               fontWeight: '700',
               letterSpacing: theme('letterSpacing.tight'),
@@ -97,13 +98,13 @@ module.exports = {
         dark: {
           css: {
             color: theme('colors.slate.200'), //text color for dark mode
-            a: {
-              color: theme('colors.primary-color-dark'), // links in dark mode
-              '&:hover': {
-                color: theme('colors.primary.400'),
-              },
-              code: { color: theme('colors.primary.400') },
-            },
+            // a: {
+            //   color: theme('colors.primary-color-dark'), // links in dark mode
+            //   '&:hover': {
+            //     color: theme('colors.primary.400'),
+            //   },
+            //   code: { color: theme('colors.primary.400') },
+            // },
             h1: {
               fontWeight: '700',
               letterSpacing: theme('letterSpacing.tight'),
@@ -154,6 +155,28 @@ module.exports = {
           },
         },
       }),
+      keyframes: {
+        shrink: {
+          '0% , 100%': {
+            height: '0.75rem',
+          },
+          '50%': {
+            height: '0.375rem',
+          },
+        },
+        expand: {
+          '0% , 100%': {
+            height: '0.375rem',
+          },
+          '50%': {
+            height: '0.75rem',
+          },
+        },
+      },
+      animation: {
+        shrink: 'shrink 1.5s infinte',
+        expand: 'expand 1.5s infinte',
+      },
     },
   },
   plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],

@@ -1,8 +1,9 @@
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: process.env.ANALYZE === 'true',
-})
-
-module.exports = withBundleAnalyzer({
+// const withBundleAnalyzer = require('@next/bundle-analyzer')({})
+const withPWA = require('next-pwa')
+module.exports = withPWA({
+  pwa: {
+    dest: 'public',
+  },
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
@@ -39,4 +40,5 @@ module.exports = withBundleAnalyzer({
 
     return config
   },
+  // enabled: process.env.ANALYZE === 'true',
 })
