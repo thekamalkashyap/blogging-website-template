@@ -4,11 +4,24 @@ import { PageSEO } from '@/components/SEO'
 import { RoughNotation } from 'react-rough-notation'
 
 export default function AuthorLayout({ children, frontMatter }) {
-  const { name, avatar, occupation, company, email, text1, text2, text3 } = frontMatter
-  let mailurl = `mailto:${email}`
+  const {
+    name,
+    avatar,
+    occupation,
+    company,
+    email,
+    twitter,
+    github,
+    text1,
+    text2,
+    text3,
+  } = frontMatter
+  let mailUrl = `mailto:${email}`
+  let twitterUrl = `https://www.twitter.com/${twitter}`
+  let githubUrl = `https://www.github.com/${github}`
   return (
     <>
-      <PageSEO title={`About - ${name}`} description={`About me - ${name}`} />
+      <PageSEO title={`About - ${name}`} description={`about the owner of the site - ${name}`} />
       <div className="items-center space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
         <div className="flex flex-col items-center pt-8 space-x-2">
           <Image
@@ -38,12 +51,27 @@ export default function AuthorLayout({ children, frontMatter }) {
           <br />
           <p>
             Feel free to reach out if you have anything to talk about, you can mail me on &nbsp;
-            <RoughNotation type="highlight" show={true} color="#ff0000" aimationDelay={1200}>
-              <Link href={mailurl} className="dark:text-gray-50 font-bold no-underline">
-                {email}
-              </Link>
-            </RoughNotation>
-            &nbsp; or contact me on social media.
+            <Link
+              href={mailUrl}
+              className="dark:text-yellow-300 text-blue-700 font-bold no-underline"
+            >
+              {email}
+            </Link>
+            &nbsp; or contact me on &nbsp;
+            <Link
+              href={twitterUrl}
+              className="dark:text-yellow-300 text-blue-700 font-bold no-underline"
+            >
+              twitter
+            </Link>
+            . You can watch my projects and open source contributions &nbsp;
+            <Link
+              href={githubUrl}
+              className="dark:text-yellow-300 text-blue-700 font-bold no-underline"
+            >
+              here
+            </Link>
+            .
           </p>
         </div>
       </div>

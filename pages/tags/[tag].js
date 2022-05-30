@@ -46,8 +46,8 @@ export default function Tag({ posts, tag }) {
   return (
     <>
       <TagSEO
-        title={`${tag} - ${siteMetadata.author}`}
-        description={`${tag} tags - ${siteMetadata.author}`}
+        title={`${tag} - ${siteMetadata.headerTitle}`}
+        description={`Blogs related to ${tag}`}
       />
       <ListLayout posts={posts} title={title} />
     </>

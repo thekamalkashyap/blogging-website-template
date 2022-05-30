@@ -1,12 +1,12 @@
 {
-  "name": "kamalkashyap!",
-  "short_name": "kamal",
+  "name": "techipedia! : a tech blogging app",
+  "short_name": "techipedia",
   "start_url": "./",
   "background_color": "#1f2023",
   "display": "standalone",
   "scope": "./",
-  "theme_color": "#a0aec0",
-  "description": "my online place of thoughts",
+  "theme_color": "#1f2023",
+  "description": "best place to learn trendy tech and understanding concepts.",
   "icons": [
     {
       "src": "./icons/icon-48x48.png",
@@ -71,23 +71,23 @@
   ],
   "shortcuts": [
     {
-      "name": "Home",
-      "short_name": "Home",
-      "description": "Go to home page.",
+      "name": "Blogs",
+      "short_name": "Blogs",
+      "description": "learn new things",
       "url": "/",
       "icons": [{ "src": "/icons/maskable.png", "sizes": "192x192" }]
     },
     {
-      "name": "Blogs",
-      "short_name": "Blogs",
-      "description": "Check out my blogs.",
-      "url": "/blog",
+      "name": "Tags",
+      "short_name": "Tags",
+      "description": "search blogs by category",
+      "url": "/tags",
       "icons": [{ "src": "/icons/maskable.png", "sizes": "192x192" }]
     },
     {
       "name": "About",
       "short_name": "About",
-      "description": "Get to know me more.",
+      "description": "Get to know me.",
       "url": "/about",
       "icons": [{ "src": "/icons/maskable.png", "sizes": "192x192" }]
     }

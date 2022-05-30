@@ -15,7 +15,7 @@ const LayoutWrapper = ({ children }) => {
       <div className="flex flex-col justify-between h-screen">
         <header className="flex items-center justify-between py-6">
           <div>
-            <Link href="/" aria-label="kamal kashyap's website">
+            <Link href="/" aria-label="techipedia">
               <div className="flex items-center justify-between text-xl font-semibold text-primary-color dark:text-primary-color-dark">
                 <Typewriter
                   options={{
